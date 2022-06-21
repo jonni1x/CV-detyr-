@@ -108,7 +108,7 @@ body{
 
 .contact{
     position: absolute;
-    bottom: 32%;
+    bottom: 35%;
     left: 30%;
     font-size: 2rem;
 }
@@ -118,7 +118,8 @@ form{
     flex-direction: column;
     align-items: center;
     width: 50%;
-    margin-left: 150px;
+    margin-left:150px ;
+    
 }
 
 form > label{
