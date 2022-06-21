@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,61 +8,85 @@
     <title>CV</title>
     <link rel="stylesheet" href="CV.css">
 </head>
+
 <body>
-   
-   
-    <div class="about-me">
-        
-    </div>
 
-    <br>
-    <br>
-    
+    <div class="cv">
+        <div class="about-me">
+            <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YW5vbnltJTIwcHJvZmlsZSUyMHBpY3R1cmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                alt="">
+            <h3>about me</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus fugit illo explicabo cum dolore
+                quasi,
+                minus qui sit tenetur libero accusantium reiciendis odit. Suscipit unde alias ratione aliquam debitis
+                eos!
+            </p>
 
-    <fieldset style="width: 80%;margin: 0 auto;">
-        <legend>Adress</legend>
-        <div>
-            <div>
-                <h4>956, 31st Street</h4>
-                <h4>NYC - 10001</h4>
-                <h4>United States</h4>
-            </div>
-            <div style="margin: 20px 0 ;">
-                <h4>Website : <a href="#" target="_blank">Random website</a></h4>
-                <h4>Phone : (123) 456 789</h4>
-            </div>
+            <hr>
+
+            <h2>Social media</h2>
+            <ul>
+                <li><a href="#">facebook.com</a></li>
+                <li><a href="#">twitter.com</a></li>
+                <li><a href="#">linkedin.com</a></li>
+            </ul>
         </div>
-    </fieldset>
-    
-    <br>
-    <br>
-    <!-- Skills -->
-   
 
-        <hr>
 
-        <br>
-        <br>
-        <br>
-        <br>
-        <!--Contact Section-->
+        <section class="right-section">
+            <div class="name-location">
+                <div class="name">
+                    <h1>Jon Zylfiu</h1>
+                    <h2>Web Developer</h2>
+                </div>
+                <fieldset>
+                    <legend>Adress</legend>
+                    <div class="adress">
+                        <div>
+                            <h4>956, 31st Street</h4>
+                            <h4>NYC - 10001</h4>
+                            <h4>United States</h4>
+                        </div>
+                        <div>
+                            <h4>Website : <a href="#" target="_blank">Random website</a></h4>
+                            <h4>Phone : (123) 456 789</h4>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
 
-       
-            <form>
+            <!-- Work Experience -->
+            <div class="work-experience">
+                <h4>Work Experience</h4>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero aliquam perferendis tempora accusamus,
+                temporibus omnis exercitationem iusto dicta dolore nobis, animi architecto eaque obcaecati magni non
+                totam consequatur eos nisi.</span>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero aliquam perferendis tempora accusamus,
+                    temporibus omnis exercitationem iusto dicta dolore nobis, animi architecto eaque obcaecati magni non
+                    totam consequatur eos nisi.</span>
+
+            </div>
+
+            <!--Contact Section-->
+            <h2 class="contact">Contact</h2>
+            <form autocomplete="off">
                 <label for="name">Name
-                <input type="text" id="name" required>
-            </label>
-            <label for="phone"  >Phone Number
-                <input type="number" id="phone" required>
-            </label>
-            <label for="email">Email
-                <input type="email" id="email" required>
-            </label>
-            <label for="comment" >Leave A Comment
-                <textarea name="comment" id="comment" cols="20" rows="5" required></textarea>
-            </label>
+                    <input type="text" id="name" required>
+                </label>
+                <label for="phone">Phone Number
+                    <input type="number" id="phone" required>
+                </label>
+                <label for="email">Email
+                    <input type="email" id="email" required>
+                </label>
+                <label for="comment">Leave A Comment
+                    <textarea name="comment" id="comment" cols="20" rows="3" required></textarea>
+                </label>
                 <input type="submit" value="Submit">
             </form>
-     
+        </section>
+    </div>
+
 </body>
+
 </html>
